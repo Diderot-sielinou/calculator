@@ -30,7 +30,7 @@ input {
   padding: 24px;
   margin: 10px;
   background: transparent;
-  box-shadow: 0 3px 15px rgba(84, 84, 84, 10%);
+  box-shadow: 0 3px 15px #5454541a;
   font-size: 40px;
   text-align: right;
   cursor: pointer;
