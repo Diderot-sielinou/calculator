@@ -1,14 +1,11 @@
-
 let input = document.getElementById('inputbox');
 let buttons = document.querySelectorAll('button');
-
 let string = "";
 let arr = Array.from(buttons);
 console.log(arr)
 arr.forEach(button => {
 console.log(button)
-  
-    button.addEventListener('click', (e) =>{
+button.addEventListener('click', (e) =>{
 console.log(e)
 
         if(e.target.innerHTML == '='){
@@ -31,9 +28,6 @@ console.log(e)
         
     })
 })
-
-
-
 
 // function generatpass(passLength){
 //   let pass = '';
